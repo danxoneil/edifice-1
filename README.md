@@ -1,6 +1,22 @@
 # edifice
 
-A database of the built environment in Chicago using open data
+Edifice is an attempt to build a geospatial API for the entire city of Chicago. The goal of the project is to create a simple system for querying the status of a place within the boundaries of the city.
+
+-- Query a building and get all the permits, violations, business licenses associated with it. Get its assessed value and all crimes that happened near it
+
+-- Query a street segment and get its current average traffic speed or all the requests to the 311 system associated with it
+
+-- Query a park and see upcoming special event permits or all the public works of art there 
+
+-- Query a community area and see aggregate health outcome data, population, and demographics
+
+Currently, the vast majority of this data is taken from the [City of Chicago open data portal](https://data.cityofchicago.org/). There are also datasets generated from Cook County web site and sets from the U.S. Census and the American Community Survey. [Google Doc of data sources we are using](https://docs.google.com/spreadsheet/ccc?key=0AtbqcVh3dkAqdGdlcWd5MzRYcGJkS1RoQTM3Qzd4dUE)
+
+But the larger vision for this project is to be an authoritative geospatial database of anything in the city that has some form of a location-- address, lat/long, shapefile, etc.
+
+There are a number of other useful aspects of this project, including address matching, scraping of non data-portal datasets, and a meta description aggregator that helps researchers and civic-minded people to think about what the information in this huge database means. We welcome ideas on how such a tool could be used to make lives better in Chicago.
+
+The first public-facing manifestation of this project is [Edifice Maps](http://edifice.opencityapps.org/), ("Maps of Chicago's built environment"). The informal team working on edifice meets weekly at the [Open Gov Hack Night](http://opengovhacknight.eventbrite.com/). Join us!
 
 ## Requirements
 
